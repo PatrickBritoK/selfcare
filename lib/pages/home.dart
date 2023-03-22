@@ -117,13 +117,36 @@ class PageHome extends StatelessWidget {
                   ),
                   height: 100,
                   width: 100,
-                  child: const Padding(
-                    padding: EdgeInsets.only(left: 20, top: 20),
-                    child: Text(
-                      "🧘",
-                      textAlign: TextAlign.left,
-                      style: TextStyle(fontSize: 40),
-                    ),
+                  child: Stack(
+                    children: [
+                      const Padding(
+                        padding: EdgeInsets.only(left: 20, top: 20),
+                        child: Text(
+                          "🧘",
+                          style: TextStyle(fontSize: 40),
+                        ),
+                      ),
+                      Positioned(
+                        left: 10,
+                        bottom: 10,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            Text(
+                              "Meditation",
+                              style:
+                                  TextStyle(fontSize: 16, color: Colors.black),
+                            ),
+                            Text(
+                              "30 min",
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  color: Color.fromARGB(255, 122, 122, 122)),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 Container(
@@ -134,13 +157,36 @@ class PageHome extends StatelessWidget {
                   ),
                   height: 100,
                   width: 100,
-                  child: const Padding(
-                    padding: EdgeInsets.only(left: 20),
-                    child: Text(
-                      "🛏",
-                      textAlign: TextAlign.left,
-                      style: TextStyle(fontSize: 40),
-                    ),
+                  child: Stack(
+                    children: [
+                      const Padding(
+                        padding: EdgeInsets.only(left: 20, top: 20),
+                        child: Text(
+                          "🛏️",
+                          style: TextStyle(fontSize: 40),
+                        ),
+                      ),
+                      Positioned(
+                        left: 10,
+                        bottom: 10,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            Text(
+                              "Wake up",
+                              style:
+                                  TextStyle(fontSize: 16, color: Colors.black),
+                            ),
+                            Text(
+                              "15 min",
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  color: Color.fromARGB(255, 122, 122, 122)),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 Container(
@@ -151,13 +197,36 @@ class PageHome extends StatelessWidget {
                   ),
                   height: 100,
                   width: 100,
-                  child: const Padding(
-                    padding: EdgeInsets.only(left: 20, top: 20),
-                    child: Text(
-                      "🙏",
-                      textAlign: TextAlign.left,
-                      style: TextStyle(fontSize: 40),
-                    ),
+                  child: Stack(
+                    children: [
+                      const Padding(
+                        padding: EdgeInsets.only(left: 20, top: 20),
+                        child: Text(
+                          "🙏",
+                          style: TextStyle(fontSize: 40),
+                        ),
+                      ),
+                      Positioned(
+                        left: 10,
+                        bottom: 10,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            Text(
+                              "Positive focus",
+                              style:
+                                  TextStyle(fontSize: 16, color: Colors.black),
+                            ),
+                            Text(
+                              "10 min",
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  color: Color.fromARGB(255, 122, 122, 122)),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 Container(
@@ -168,13 +237,36 @@ class PageHome extends StatelessWidget {
                   ),
                   height: 100,
                   width: 100,
-                  child: const Padding(
-                    padding: EdgeInsets.only(left: 20, top: 20),
-                    child: Text(
-                      "😮‍💨",
-                      textAlign: TextAlign.left,
-                      style: TextStyle(fontSize: 40),
-                    ),
+                  child: Stack(
+                    children: [
+                      const Padding(
+                        padding: EdgeInsets.only(left: 20, top: 20),
+                        child: Text(
+                          "😮‍💨",
+                          style: TextStyle(fontSize: 40),
+                        ),
+                      ),
+                      Positioned(
+                        left: 10,
+                        bottom: 10,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            Text(
+                              "Deep breathing",
+                              style:
+                                  TextStyle(fontSize: 16, color: Colors.black),
+                            ),
+                            Text(
+                              "5 min",
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  color: Color.fromARGB(255, 122, 122, 122)),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 Container(
@@ -185,13 +277,36 @@ class PageHome extends StatelessWidget {
                   ),
                   height: 100,
                   width: 100,
-                  child: const Padding(
-                    padding: EdgeInsets.only(left: 20, top: 20),
-                    child: Text(
-                      "👁️",
-                      textAlign: TextAlign.left,
-                      style: TextStyle(fontSize: 40),
-                    ),
+                  child: Stack(
+                    children: [
+                      const Padding(
+                        padding: EdgeInsets.only(left: 20, top: 20),
+                        child: Text(
+                          "👁️",
+                          style: TextStyle(fontSize: 40),
+                        ),
+                      ),
+                      Positioned(
+                        left: 10,
+                        bottom: 10,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            Text(
+                              "Mindfulness",
+                              style:
+                                  TextStyle(fontSize: 16, color: Colors.black),
+                            ),
+                            Text(
+                              "25 min",
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  color: Color.fromARGB(255, 122, 122, 122)),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 Container(
@@ -202,13 +317,36 @@ class PageHome extends StatelessWidget {
                   ),
                   height: 100,
                   width: 100,
-                  child: const Padding(
-                    padding: EdgeInsets.only(left: 20, top: 20),
-                    child: Text(
-                      "🎨",
-                      textAlign: TextAlign.left,
-                      style: TextStyle(fontSize: 40),
-                    ),
+                  child: Stack(
+                    children: [
+                      const Padding(
+                        padding: EdgeInsets.only(left: 20, top: 20),
+                        child: Text(
+                          "🎨",
+                          style: TextStyle(fontSize: 40),
+                        ),
+                      ),
+                      Positioned(
+                        left: 10,
+                        bottom: 10,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            Text(
+                              "Creativy",
+                              style:
+                                  TextStyle(fontSize: 16, color: Colors.black),
+                            ),
+                            Text(
+                              "20 min",
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  color: Color.fromARGB(255, 122, 122, 122)),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],
