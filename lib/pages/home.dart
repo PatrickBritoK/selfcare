@@ -111,242 +111,302 @@ class PageHome extends StatelessWidget {
               children: <Widget>[
                 Container(
                   margin: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 195, 247, 197),
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  height: 100,
-                  width: 100,
-                  child: Stack(
-                    children: [
-                      const Padding(
-                        padding: EdgeInsets.only(left: 20, top: 20),
-                        child: Text(
-                          "🧘",
-                          style: TextStyle(fontSize: 40),
-                        ),
-                      ),
-                      Positioned(
-                        left: 10,
-                        bottom: 10,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
-                            Text(
-                              "Meditation",
-                              style:
-                                  TextStyle(fontSize: 16, color: Colors.black),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 195, 247, 197),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Stack(
+                      children: [
+                        Positioned.fill(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(10),
                             ),
-                            Text(
-                              "30 min",
-                              style: TextStyle(
-                                  fontSize: 16,
-                                  color: Color.fromARGB(255, 122, 122, 122)),
-                            ),
-                          ],
+                            margin: const EdgeInsets.only(
+                                right: 100, bottom: 100, left: 12, top: 12),
+                          ),
                         ),
-                      ),
-                    ],
-                  ),
-                ),
-                Container(
-                  margin: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 219, 235, 198),
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  height: 100,
-                  width: 100,
-                  child: Stack(
-                    children: [
-                      const Padding(
-                        padding: EdgeInsets.only(left: 20, top: 20),
-                        child: Text(
-                          "🛏️",
-                          style: TextStyle(fontSize: 40),
+                        const Padding(
+                          padding: EdgeInsets.only(left: 20, top: 20),
+                          child: Text(
+                            "🧘",
+                            style: TextStyle(fontSize: 40),
+                          ),
                         ),
-                      ),
-                      Positioned(
-                        left: 10,
-                        bottom: 10,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
-                            Text(
-                              "Wake up",
-                              style:
-                                  TextStyle(fontSize: 16, color: Colors.black),
-                            ),
-                            Text(
-                              "15 min",
-                              style: TextStyle(
-                                  fontSize: 16,
-                                  color: Color.fromARGB(255, 122, 122, 122)),
-                            ),
-                          ],
+                        Positioned(
+                          left: 10,
+                          bottom: 10,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: const [
+                              Text(
+                                "Meditation",
+                                style: TextStyle(
+                                    fontSize: 16, color: Colors.black),
+                              ),
+                              Text(
+                                "30 min",
+                                style: TextStyle(
+                                    fontSize: 16,
+                                    color: Color.fromARGB(255, 122, 122, 122)),
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
                 Container(
                   margin: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 161, 221, 240),
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  height: 100,
-                  width: 100,
-                  child: Stack(
-                    children: [
-                      const Padding(
-                        padding: EdgeInsets.only(left: 20, top: 20),
-                        child: Text(
-                          "🙏",
-                          style: TextStyle(fontSize: 40),
-                        ),
-                      ),
-                      Positioned(
-                        left: 10,
-                        bottom: 10,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
-                            Text(
-                              "Positive focus",
-                              style:
-                                  TextStyle(fontSize: 16, color: Colors.black),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 219, 235, 198),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Stack(
+                      children: [
+                        Positioned.fill(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(10),
                             ),
-                            Text(
-                              "10 min",
-                              style: TextStyle(
-                                  fontSize: 16,
-                                  color: Color.fromARGB(255, 122, 122, 122)),
-                            ),
-                          ],
+                            margin: const EdgeInsets.only(
+                                right: 100, bottom: 100, left: 12, top: 12),
+                          ),
                         ),
-                      ),
-                    ],
-                  ),
-                ),
-                Container(
-                  margin: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 158, 210, 235),
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  height: 100,
-                  width: 100,
-                  child: Stack(
-                    children: [
-                      const Padding(
-                        padding: EdgeInsets.only(left: 20, top: 20),
-                        child: Text(
-                          "😮‍💨",
-                          style: TextStyle(fontSize: 40),
+                        const Padding(
+                          padding: EdgeInsets.only(left: 20, top: 20),
+                          child: Text(
+                            "🛏️",
+                            style: TextStyle(fontSize: 40),
+                          ),
                         ),
-                      ),
-                      Positioned(
-                        left: 10,
-                        bottom: 10,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
-                            Text(
-                              "Deep breathing",
-                              style:
-                                  TextStyle(fontSize: 16, color: Colors.black),
-                            ),
-                            Text(
-                              "5 min",
-                              style: TextStyle(
-                                  fontSize: 16,
-                                  color: Color.fromARGB(255, 122, 122, 122)),
-                            ),
-                          ],
+                        Positioned(
+                          left: 10,
+                          bottom: 10,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: const [
+                              Text(
+                                "Wake up",
+                                style: TextStyle(
+                                    fontSize: 16, color: Colors.black),
+                              ),
+                              Text(
+                                "15 min",
+                                style: TextStyle(
+                                    fontSize: 16,
+                                    color: Color.fromARGB(255, 122, 122, 122)),
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
                 Container(
                   margin: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 208, 221, 172),
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  height: 100,
-                  width: 100,
-                  child: Stack(
-                    children: [
-                      const Padding(
-                        padding: EdgeInsets.only(left: 20, top: 20),
-                        child: Text(
-                          "👁️",
-                          style: TextStyle(fontSize: 40),
-                        ),
-                      ),
-                      Positioned(
-                        left: 10,
-                        bottom: 10,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
-                            Text(
-                              "Mindfulness",
-                              style:
-                                  TextStyle(fontSize: 16, color: Colors.black),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 161, 221, 240),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Stack(
+                      children: [
+                        Positioned.fill(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(10),
                             ),
-                            Text(
-                              "25 min",
-                              style: TextStyle(
-                                  fontSize: 16,
-                                  color: Color.fromARGB(255, 122, 122, 122)),
-                            ),
-                          ],
+                            margin: const EdgeInsets.only(
+                                right: 100, bottom: 100, left: 12, top: 12),
+                          ),
                         ),
-                      ),
-                    ],
+                        const Padding(
+                          padding: EdgeInsets.only(left: 20, top: 20),
+                          child: Text(
+                            "🙏",
+                            style: TextStyle(fontSize: 40),
+                          ),
+                        ),
+                        Positioned(
+                          left: 10,
+                          bottom: 10,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: const [
+                              Text(
+                                "Positive focus",
+                                style: TextStyle(
+                                    fontSize: 16, color: Colors.black),
+                              ),
+                              Text(
+                                "10 min",
+                                style: TextStyle(
+                                    fontSize: 16,
+                                    color: Color.fromARGB(255, 122, 122, 122)),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
                 Container(
                   margin: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 155, 230, 165),
-                    borderRadius: BorderRadius.circular(10),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 158, 210, 235),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Stack(
+                      children: [
+                        Positioned.fill(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            margin: const EdgeInsets.only(
+                                right: 100, bottom: 100, left: 12, top: 12),
+                          ),
+                        ),
+                        const Padding(
+                          padding: EdgeInsets.only(left: 20, top: 20),
+                          child: Text(
+                            "😮‍💨",
+                            style: TextStyle(fontSize: 40),
+                          ),
+                        ),
+                        Positioned(
+                          left: 10,
+                          bottom: 10,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: const [
+                              Text(
+                                "Deep breathing",
+                                style: TextStyle(
+                                    fontSize: 16, color: Colors.black),
+                              ),
+                              Text(
+                                "5 min",
+                                style: TextStyle(
+                                    fontSize: 16,
+                                    color: Color.fromARGB(255, 122, 122, 122)),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
-                  height: 100,
-                  width: 100,
-                  child: Stack(
-                    children: [
-                      const Padding(
-                        padding: EdgeInsets.only(left: 20, top: 20),
-                        child: Text(
-                          "🎨",
-                          style: TextStyle(fontSize: 40),
-                        ),
-                      ),
-                      Positioned(
-                        left: 10,
-                        bottom: 10,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
-                            Text(
-                              "Creativy",
-                              style:
-                                  TextStyle(fontSize: 16, color: Colors.black),
+                ),
+                Container(
+                  margin: const EdgeInsets.all(10),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 208, 221, 172),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Stack(
+                      children: [
+                        Positioned.fill(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(10),
                             ),
-                            Text(
-                              "20 min",
-                              style: TextStyle(
-                                  fontSize: 16,
-                                  color: Color.fromARGB(255, 122, 122, 122)),
-                            ),
-                          ],
+                            margin: const EdgeInsets.only(
+                                right: 100, bottom: 100, left: 12, top: 12),
+                          ),
                         ),
-                      ),
-                    ],
+                        const Padding(
+                          padding: EdgeInsets.only(left: 20, top: 20),
+                          child: Text(
+                            "👁️",
+                            style: TextStyle(fontSize: 40),
+                          ),
+                        ),
+                        Positioned(
+                          left: 10,
+                          bottom: 10,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: const [
+                              Text(
+                                "Mindfulness",
+                                style: TextStyle(
+                                    fontSize: 16, color: Colors.black),
+                              ),
+                              Text(
+                                "25 min",
+                                style: TextStyle(
+                                    fontSize: 16,
+                                    color: Color.fromARGB(255, 122, 122, 122)),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Container(
+                  margin: const EdgeInsets.all(10),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 155, 230, 165),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Stack(
+                      children: [
+                        Positioned.fill(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            margin: const EdgeInsets.only(
+                                right: 100, bottom: 100, left: 12, top: 12),
+                          ),
+                        ),
+                        const Padding(
+                          padding: EdgeInsets.only(left: 20, top: 20),
+                          child: Text(
+                            "🎨",
+                            style: TextStyle(fontSize: 40),
+                          ),
+                        ),
+                        Positioned(
+                          left: 10,
+                          bottom: 10,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: const [
+                              Text(
+                                "Creativity",
+                                style: TextStyle(
+                                    fontSize: 16, color: Colors.black),
+                              ),
+                              Text(
+                                "20 min",
+                                style: TextStyle(
+                                    fontSize: 16,
+                                    color: Color.fromARGB(255, 122, 122, 122)),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ],
